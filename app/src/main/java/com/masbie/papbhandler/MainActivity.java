@@ -16,27 +16,27 @@ public class MainActivity extends AppCompatActivity {
         final ToggleButton[] toggle = new ToggleButton[11];
         toggle[0] = (ToggleButton) findViewById(R.id.tgbutton);
         toggle[1] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[2] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[3] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[4] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[5] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[6] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[7] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[8] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[9] = (ToggleButton) findViewById(R.id.tgbutton1);
-        toggle[10] = (ToggleButton) findViewById(R.id.tgbutton1);
+        toggle[2] = (ToggleButton) findViewById(R.id.tgbutton2);
+        toggle[3] = (ToggleButton) findViewById(R.id.tgbutton3);
+        toggle[4] = (ToggleButton) findViewById(R.id.tgbutton4);
+        toggle[5] = (ToggleButton) findViewById(R.id.tgbutton5);
+        toggle[6] = (ToggleButton) findViewById(R.id.tgbutton6);
+        toggle[7] = (ToggleButton) findViewById(R.id.tgbutton7);
+        toggle[8] = (ToggleButton) findViewById(R.id.tgbutton8);
+        toggle[9] = (ToggleButton) findViewById(R.id.tgbutton9);
+        toggle[10] = (ToggleButton) findViewById(R.id.tgbutton10);
         final ImageView[] image = new ImageView[11];
         image[0] = (ImageView) findViewById(R.id.image);
         image[1] = (ImageView) findViewById(R.id.image1);
-        image[2] = (ImageView) findViewById(R.id.image1);
-        image[3] = (ImageView) findViewById(R.id.image1);
-        image[4] = (ImageView) findViewById(R.id.image1);
-        image[5] = (ImageView) findViewById(R.id.image1);
-        image[6] = (ImageView) findViewById(R.id.image1);
-        image[7] = (ImageView) findViewById(R.id.image1);
-        image[8] = (ImageView) findViewById(R.id.image1);
-        image[9] = (ImageView) findViewById(R.id.image1);
-        image[10] = (ImageView) findViewById(R.id.image1);
+        image[2] = (ImageView) findViewById(R.id.image2);
+        image[3] = (ImageView) findViewById(R.id.image3);
+        image[4] = (ImageView) findViewById(R.id.image4);
+        image[5] = (ImageView) findViewById(R.id.image5);
+        image[6] = (ImageView) findViewById(R.id.image6);
+        image[7] = (ImageView) findViewById(R.id.image7);
+        image[8] = (ImageView) findViewById(R.id.image8);
+        image[9] = (ImageView) findViewById(R.id.image9);
+        image[10] = (ImageView) findViewById(R.id.image10);
 
 
         toggle[0].setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
